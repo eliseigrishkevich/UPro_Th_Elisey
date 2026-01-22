@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
     {
         _panelMain.SetActive(true);
         _panelSetting.SetActive(false);
-        _panelChoose.SetActive(true);
+        _panelChoose.SetActive(false);
     }
 
 
@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
     {
         _panelMain.SetActive(false);
         _panelSetting.SetActive(true);
-        _panelChoose.SetActive(true);
+        _panelChoose.SetActive(false);
     }
 
     public void OpenChoose()
